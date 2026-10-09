@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated analysis and figure helper scripts
+pyscripts/export_feature_channels.py
+pyscripts/generate_sample6_1_combined_comparison.py
+pyscripts/generate_summary_statistics_enhanced.py
+
+# Generated figures, summaries, and job outputs
+*.slurm
+data_images/
+figures/
+clip/
+final_runs_CNN/
+final_runs_GNN/
+model_file_optim/
+model_file_optim_2/
+outputs_optim_2/
+slurm_runs/
+model_optimization_summary.csv
+
+# Local datasets and large scientific artifacts
+data/
+GNNdata/
+example_files/
+*.cndb
+*.dcd
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Separate third-party checkout; install chromdyn from its own repository
+chromdyn/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+*.log
