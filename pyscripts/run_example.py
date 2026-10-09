@@ -1,7 +1,7 @@
 import torch
 from pathlib import Path
 from CNN_network import get_model
-from rebuildCNN import save_comparison_matrix
+from train_test_val import save_comparison_matrix
 from prep_fns import input_wrapper
 import numpy as np
 from loss_fns import get_loss
