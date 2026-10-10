@@ -1,4 +1,6 @@
-Here is a quick description of the Python files.
+**DESCRIPTION OVERVIEW of Python Scripts**
+
+
 **MAIN COMPONENTS**
 
 **CNN_network.py:**
